@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ####################  HTML element styling  #################### */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #e5e5e5;
+}
+/* ####################  Utility Classes  #################### */
+
+.container {
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+.width {
+  width: 356px;
+}
+.font-14 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #606060;
+}
+.font-18 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #181717;
+}
+
+.font-32 {
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: #606060;
+}
+
+.font-60 {
+  font-size: 6rem;
+  font-weight: 500;
+  color: #181717;
+  line-height: 97.2%;
+}
+.flex-item {
+  display: flex;
+  flex: 1;
+}
+.flex-column {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 356px;
+}
+.align-end {
+  align-items: flex-end;
+}
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1.5px solid #181717;
+  margin-top: 108px;
+}
+
+/* ####################  Navbar Styling  #################### */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  font-size: 2.1rem;
+  font-weight: 500;
+  align-items: baseline;
+  margin-top: 102px;
+}
+.links ul {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+}
+.links li a {
+  text-decoration: solid;
+  color: black;
+}
+
+/* ####################  Section Styling  #################### */
+
+.section {
+  margin-top: 20.1rem;
+  display: flex;
+}
+.section-top {
+  margin-top: 11.3rem;
+  display: flex;
+}
+.section-2 {
+  margin-top: 7.2rem;
+  margin-bottom: 13.4rem;
+  display: flex;
+}
+
+.arrow {
+  display: inline-block;
+  padding: 1px;
+  width: 33.61px;
+  height: 38.04px;
+  background: #fff;
+}
+
+/* ####################  Footer Styling  #################### */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  font-size: 2.1rem;
+  font-weight: 500;
+  align-items: center;
+  margin-top: 194px;
+  margin-bottom: 70px;
+}
+
+footer p {
+  color: #2429af;
+}
+
+footer ul {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+}
+footer li a {
+  text-decoration: solid;
+  color: #181717;
+}
+
+/* ################################   ABOUT.HTML Styling   ########################   */
+
+.font-18 {
+  color: #181717;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.87px;
+  letter-spacing: -3%;
+  text-decoration: underline;
+}
+.about-ul {
+  color: #181717;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.87px;
+  letter-spacing: -3%;
+  list-style-type: none;
+}
+.wh-436 {
+  display: inline;
+  width: 436px;
+  margin-left: 63px;
+}
+
+.black {
+  color: #181717;
+}
+.resume {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #181717;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
